@@ -1,0 +1,32 @@
+# ===== Agnes 多模态 Skill 凭据与缓存 =====
+# 真实环境变量文件 .env 不要提交
+
+# 真实 API Key（不要提交）
+# .env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+.python-version
+
+# 视频轮询临时文件
+*.task.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 输出资源（按需决定是否忽略）
+# assets/outputs/
